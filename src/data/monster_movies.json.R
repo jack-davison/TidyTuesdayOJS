@@ -1,6 +1,4 @@
 
-library(dplyr)
- 
 monsters <- tidytuesdayR::tt_load(2024, 44)
 
 movies <- monsters$monster_movies
