@@ -27,7 +27,9 @@ jobs:
       uses: r-lib/actions/setup-r-dependencies@v2
       with:
         packages: |
-          any::tidytuesdayR
+          any::dplyr
+          any::tidyr
+          any::rnaturalearth
           any::jsonlite 
 
     - uses: actions/setup-node@v4

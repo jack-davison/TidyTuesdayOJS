@@ -15,14 +15,14 @@ const monsterMovies = FileAttachment("data/monster_movies.json").json({typed: tr
 const genres = monsterMovies.map((d) => d.genres).flat();
 
 const uniqueGenres = [... new Set(genres)].sort();
-
-const years = rRange(aq.from(monsterMovies).dedupe("year").array("year"))
-
-const runtime = rRange(aq.from(monsterMovies).dedupe("runtime_minutes").array("runtime_minutes"))
 ```
 
 ```js
 const monsterMoviesSelected = monsterMovies.filter((d) => d.genres.includes(inputGenre))
+
+const highestRatedMovie = monsterMoviesSelected.reduce((highest, film) => {
+  return film.average_rating > highest.average_rating ? film : highest;
+})
 ```
 
 ```js
@@ -135,12 +135,6 @@ Inputs.table(monsterMoviesSelected, {
 </div>
 
 </div>
-
-```js
-const highestRatedMovie = monsterMoviesSelected.reduce((highest, film) => {
-  return film.average_rating > highest.average_rating ? film : highest;
-})
-```
 
 ```js
 function rRange(x) {
