@@ -7,7 +7,7 @@ theme: [dashboard]
 import * as L from "npm:leaflet";
 ```
 
-# [2024/45] 🏛️ Democracy and Dictatorship
+# [2024/45] 🏛️ Democracy
 
 <div class="grid grid-cols-2" style="grid-auto-rows: auto;">
 
