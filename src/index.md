@@ -4,8 +4,7 @@
 
 [🔗 Web](https://jack-davison.github.io/) | 
 [🧑‍💻 GitHub](https://github.com/jack-davison) | 
-[🐘 Mastodon](https://fosstodon.org/@jackdavison) | 
-[✖️ X (twitter)](https://x.com/jdavison_) | 
+[🦋 Bluesky](https://bsky.app/profile/jack-davison.bsky.social) | 
 [🏢 LinkedIn](https://www.linkedin.com/in/jack-davison/)
 
 ---
